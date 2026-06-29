@@ -1,0 +1,19 @@
+# Secretos — NUNCA subir la clave de API
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Salidas generadas
+charts/
+
+# OS / IDE
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
