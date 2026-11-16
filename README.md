@@ -1,5 +1,7 @@
 # 🤖 AI Data Analyst · Agente de IA para análisis de datos
 
+[![Tests](https://github.com/JavierCresp0/ai-data-analyst/actions/workflows/tests.yml/badge.svg)](https://github.com/JavierCresp0/ai-data-analyst/actions/workflows/tests.yml)
+
 Un **agente de IA (Agentic AI)** que responde preguntas sobre un dataset en **lenguaje natural**. Le preguntas *"¿qué región vende más?"* y el agente **decide por sí solo** qué herramientas usar —inspeccionar el esquema, agregar, ordenar, graficar—, las ejecuta encadenándolas, y te da la respuesta con las cifras reales.
 
 No es un "pregunta → respuesta" simple: el modelo **planifica y actúa de forma autónoma** usando herramientas, que es el núcleo de la *Agentic AI*.
@@ -128,6 +130,8 @@ Las herramientas de análisis tienen tests que **no requieren clave de API** (pr
 ```bash
 pytest
 ```
+
+Se ejecutan también de forma automática en GitHub Actions con cada cambio (la insignia del principio muestra el resultado).
 
 ## ⚙️ Configuración
 
